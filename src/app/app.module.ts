@@ -12,11 +12,15 @@ import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { ElectronService } from './providers/electron.service';
+import { GeneralViewComponent } from './components/src/app/components/general-view/general-view.component';
+import { GeneralSkillsComponent } from './components/src/app/components/general-skills/general-skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    GeneralViewComponent,
+    GeneralSkillsComponent
   ],
   imports: [
     BrowserModule,
