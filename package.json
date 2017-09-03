@@ -35,11 +35,13 @@
     "e2e": "protractor ./protractor.conf.js"
   },
   "dependencies": {
+    "@angular/cdk": "^2.0.0-beta.10",
     "@angular/common": "4.3.5",
     "@angular/compiler": "4.3.5",
     "@angular/core": "4.3.5",
     "@angular/forms": "4.3.5",
     "@angular/http": "4.3.5",
+    "@angular/material": "^2.0.0-beta.10",
     "@angular/platform-browser": "4.3.5",
     "@angular/platform-browser-dynamic": "4.3.5",
     "@angular/router": "4.3.5",
@@ -54,6 +56,7 @@
     "@types/core-js": "0.9.36",
     "@types/jasmine": "2.5.53",
     "@types/node": "7.0.7",
+    "augury": "^0.0.1",
     "autoprefixer": "7.1.1",
     "codelyzer": "3.1.1",
     "copyfiles": "1.2.0",

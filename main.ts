@@ -45,7 +45,12 @@ try {
   // This method will be called when Electron has finished
   // initialization and is ready to create browser windows.
   // Some APIs can only be used after this event occurs.
-  app.on('ready', createWindow);
+  app.on('ready', () => {
+    createWindow();
+    // const auguryPath = '~/Library/Application Support/Google/Chrome/Default/Extensions/elgalmkoelokbchhkhacckoklkejnhcd/1.14.0';
+    // BrowserWindow.addDevToolsExtension(auguryPath);
+   }
+  );
 
   // Quit when all windows are closed.
   app.on('window-all-closed', () => {

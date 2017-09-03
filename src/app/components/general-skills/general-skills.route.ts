@@ -1,8 +1,8 @@
+import { GeneralSkillsComponent } from './general-skills.component';
 import { Injectable } from '@angular/core';
+import { Route } from '@angular/router';
 
-@Injectable()
-export class GeneralSkillsRoute {
-
-  constructor() { }
-
+export const generalSkillsRoute: Route = {
+  path: 'general-skills',
+  component: GeneralSkillsComponent
 }
