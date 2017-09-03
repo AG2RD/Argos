@@ -60,6 +60,7 @@
     "cross-env": "5.0.1",
     "css-loader": "0.28.4",
     "cssnano": "3.10.0",
+    "devtron": "^1.4.0",
     "electron": "1.7.5",
     "electron-packager": "8.7.2",
     "electron-reload": "1.2.1",
